@@ -87,7 +87,7 @@ function App() {
   return (
     <div className="App">
       <div>Shelf of Books!</div>
-      <div>   {booklist.map((book) =>
+      <div className='bookshelf'>   {booklist.map((book) =>
         (<DisplayBook book={book} />))}
       </div>
     </div>
