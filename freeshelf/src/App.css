@@ -1,0 +1,19 @@
+.bookshelf {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+}
+
+.aBook {
+  display: flex;
+}
+
+.bookTitle {
+  font-weight: bolder;
+}
+
+.extraDescription {
+  padding-bottom: 50px;
+}
